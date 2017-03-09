@@ -3,8 +3,11 @@
   "licence": "MIT",
   "type": "library",
   "autoload": {
-    "psr-4": {
-      "Cryptor\\": "src/"
-    }
+    "psr-0": {
+        "Cryptor": "src/"
+    },
+    "classmap": [
+        "./"
+    ]
   }
 }
